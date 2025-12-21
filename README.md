@@ -6,7 +6,7 @@
   <a href="https://github.com/waseemalmazrua">
     <img src="https://img.shields.io/badge/Author-Waseem%20Almazrua-blue"/>
   </a>
-  <img src="https://img.shields.io/badge/Computer%20Vision-YOLOv8-orange"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-YOLOv11m-orange"/>
   <img src="https://img.shields.io/badge/Task-PPE%20Detection-red"/>
 </p>
 
