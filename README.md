@@ -52,15 +52,4 @@ This project implements a real-time **Personal Protective Equipment (PPE) monito
 
 ---
 
-## 📂 Project Structure
-```text
-PPE_Monitoring_System/
-│
-├── data/
-├── models/
-├── inference/
-├── training/
-├── assets/
-│   └── banner.png
-├── requirements.txt
-└── README.md
+
