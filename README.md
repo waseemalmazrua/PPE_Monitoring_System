@@ -24,20 +24,20 @@
 ---
 
 ## 🦺 Overview
-This project presents an **end-to-end PPE Monitoring System** built using **state-of-the-art computer vision techniques** to automatically detect and monitor **Personal Protective Equipment (PPE)** compliance in real-time.
+This project presents a **real-time PPE Monitoring System** built using advanced **computer vision and deep learning techniques** to automatically detect and monitor **Personal Protective Equipment (PPE)** compliance.
 
-The system is designed for **industrial, construction, and healthcare environments**, aiming to reduce workplace accidents through automated visual inspection.
+The system targets **industrial, construction, and healthcare environments**, aiming to reduce accidents and improve safety through automated visual inspection.
 
 ---
 
 ## 🎯 Objectives
-- Detect critical PPE items:
+- Detect essential PPE items:
   - Helmet
   - Safety Vest
   - Gloves
-- Perform **real-time compliance monitoring**
-- Support **safety decision-making** using AI
-- Enable scalable deployment for CCTV and live streams
+- Perform real-time safety compliance monitoring
+- Enable AI-assisted safety decision-making
+- Support scalable deployment for CCTV and live streams
 
 ---
 
@@ -45,20 +45,28 @@ The system is designed for **industrial, construction, and healthcare environmen
 - **YOLOv11m** for real-time object detection
 - Custom-curated and balanced PPE dataset
 - Optimized inference for video streams
-- Designed for extension with:
-  - Tracking (BoT-SORT / ByteTrack)
+- Extendable with:
+  - Object tracking (BoT-SORT / ByteTrack)
   - Violation counting
-  - Temporal analysis
+  - Temporal safety analytics
 
 ---
 
-## 🎥 Demo (Real-Time Detection)
+## 🎥 Demonstration
 
 <p align="center">
   <img src="assets/ppe_demo.gif" width="800"/>
 </p>
 
-> The system detects PPE items frame-by-frame and highlights safety compliance violations in real time.
+▶ **Full demonstration videos (Google Drive):**
+- Demo 1 – Real-time PPE Detection  
+  https://drive.google.com/file/d/1MY4THigeFB4SRbgc7eUDVeyeFZVdKQwo/view
+- Demo 2 – Multi-class PPE Compliance  
+  https://drive.google.com/file/d/1csQ0PRUyAu-kCCu3DWhlb0KFm2sTcz2B/view
+- Demo 3 – Industrial Environment Test  
+  https://drive.google.com/file/d/1bVPJCZ43PGx4UfbjaHf9MKRyDDtJJyLx/view
+- Demo 4 – Live Video Inference  
+  https://drive.google.com/file/d/1hEAZULh7gioni81Q85_N2imWBXlMxCwZ/view
 
 ---
 
@@ -68,29 +76,27 @@ The system is designed for **industrial, construction, and healthcare environmen
 |------|------|
 | mAP@0.5 | **94%** |
 | mAP@0.5:0.95 | **72%** |
-| Inference Speed | Real-time (Video Stream) |
+| Inference | Real-time |
 
 ---
 
 ## 🛠 Tech Stack
-- Python  
-- PyTorch  
-- Ultralytics YOLO  
-- OpenCV  
+- Python
+- PyTorch
+- Ultralytics YOLO
+- OpenCV
 
 ---
 
 ## 🔬 Use Cases
-- Construction site safety monitoring  
-- Industrial compliance auditing  
-- Hospital & laboratory safety  
-- Smart CCTV systems  
+- Construction site safety monitoring
+- Industrial compliance auditing
+- Hospital & laboratory safety
+- Smart CCTV systems
 
 ---
 
 ## 🌟 Project Status
-This project is part of my **Computer Vision & Healthcare AI portfolio**, focusing on **real-world, deployable AI systems**.
-
----
+This project is part of my **Computer Vision & Healthcare AI portfolio**, focusing on **deployable, real-world AI systems**.
 
 > *“AI should not only see — it should protect.”*
