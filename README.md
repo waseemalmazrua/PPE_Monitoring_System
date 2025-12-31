@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/ppe_banner.png" width="900"/>
+  <img src="assets/banner.png" width="900"/>
 </p>
 
 <h1 align="center">PPE Monitoring System</h1>
