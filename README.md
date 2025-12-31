@@ -59,13 +59,13 @@ The system targets **industrial, construction, and healthcare environments**, ai
 </p>
 
 ▶ **Full demonstration videos (Google Drive):**
-- Demo 1 – Real-time PPE Detection  
+- Demo 1 –  
   https://drive.google.com/file/d/1MY4THigeFB4SRbgc7eUDVeyeFZVdKQwo/view
-- Demo 2 – Multi-class PPE Compliance  
+- Demo 2 –  
   https://drive.google.com/file/d/1csQ0PRUyAu-kCCu3DWhlb0KFm2sTcz2B/view
-- Demo 3 – Industrial Environment Test  
+- Demo 3 –   
   https://drive.google.com/file/d/1bVPJCZ43PGx4UfbjaHf9MKRyDDtJJyLx/view
-- Demo 4 – Live Video Inference  
+- Demo 4 – 
   https://drive.google.com/file/d/1hEAZULh7gioni81Q85_N2imWBXlMxCwZ/view
 
 ---
