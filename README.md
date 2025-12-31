@@ -65,8 +65,7 @@ The system targets **industrial, construction, and healthcare environments**, ai
   https://drive.google.com/file/d/1csQ0PRUyAu-kCCu3DWhlb0KFm2sTcz2B/view
 - Demo 3 –   
   https://drive.google.com/file/d/1bVPJCZ43PGx4UfbjaHf9MKRyDDtJJyLx/view
-- Demo 4 –
-  
+- Demo 4 – 
   https://drive.google.com/file/d/1hEAZULh7gioni81Q85_N2imWBXlMxCwZ/view
 
 ---
