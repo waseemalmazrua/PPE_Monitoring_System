@@ -24,31 +24,68 @@
 ---
 
 ## 🦺 Overview
+
 This project presents a **real-time PPE Monitoring System** built using advanced **computer vision and deep learning techniques** to automatically detect and monitor **Personal Protective Equipment (PPE)** compliance.
 
-The system targets **industrial, construction, and healthcare environments**, aiming to reduce accidents and improve safety through automated visual inspection.
+The system is designed as a **general-purpose computer vision solution**, applicable to **industrial, construction, and healthcare environments**, where safety compliance is critical and manual monitoring is inefficient or unreliable.
 
 ---
 
 ## 🎯 Objectives
-- Detect essential PPE items:
+
+- Detect essential PPE items in images and video streams:
   - Helmet
   - Safety Vest
   - Gloves
-- Perform real-time safety compliance monitoring
-- Enable AI-assisted safety decision-making
-- Support scalable deployment for CCTV and live streams
+- Enable **real-time safety compliance monitoring**
+- Reduce human-dependent inspection errors
+- Support **scalable deployment** on CCTV systems and live video feeds
 
 ---
 
 ## 🧠 Model & Techniques
-- **YOLOv11m** for real-time object detection
+
+- **YOLOv11m** for high-performance real-time object detection
 - Custom-curated and balanced PPE dataset
+- Robust data augmentation for improved generalization
 - Optimized inference for video streams
-- Extendable with:
+- Architecture designed for extensibility:
   - Object tracking (BoT-SORT / ByteTrack)
-  - Violation counting
+  - PPE violation counting
   - Temporal safety analytics
+
+---
+
+## 🧩 Detected Classes
+
+<p align="center">
+  <img src="assets/Classes-DFL-box.png" width="800"/>
+</p>
+
+The model detects multiple PPE categories simultaneously using **multi-class object detection**, enabling fine-grained safety assessment at the individual level.
+
+---
+
+## 📊 Performance Metrics
+
+<p align="center">
+  <img src="assets/MAP50.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="assets/mAP50-95.png" width="800"/>
+</p>
+
+| Metric | Score |
+|------|------|
+| mAP@0.5 | **94%** |
+| mAP@0.5:0.95 | **72%** |
+| Inference Speed | **Real-time** |
+
+**Interpretation:**
+- High **mAP@0.5** indicates strong object localization accuracy.
+- Competitive **mAP@0.5:0.95** reflects robust performance across stricter IoU thresholds.
+- Results demonstrate good **generalization** across varying environments and camera angles.
 
 ---
 
@@ -58,41 +95,35 @@ The system targets **industrial, construction, and healthcare environments**, ai
   <img src="assets/ppe_demo.gif" width="800"/>
 </p>
 
-▶ **Full demonstration videos (Google Drive):**
-- Demo 1 –  https://drive.google.com/file/d/1MY4THigeFB4SRbgc7eUDVeyeFZVdKQwo/view
-- Demo 2 –  https://drive.google.com/file/d/1csQ0PRUyAu-kCCu3DWhlb0KFm2sTcz2B/view
-- Demo 3 –  https://drive.google.com/file/d/1bVPJCZ43PGx4UfbjaHf9MKRyDDtJJyLx/view
-- Demo 4 –  https://drive.google.com/file/d/1hEAZULh7gioni81Q85_N2imWBXlMxCwZ/view
-
----
-
-## 📊 Performance
-
-| Metric | Score |
-|------|------|
-| mAP@0.5 | **94%** |
-| mAP@0.5:0.95 | **72%** |
-| Inference | Real-time |
+▶ **Full demonstration videos:**
+- Demo 1 – https://drive.google.com/file/d/1MY4THigeFB4SRbgc7eUDVeyeFZVdKQwo/view
+- Demo 2 – https://drive.google.com/file/d/1csQ0PRUyAu-kCCu3DWhlb0KFm2sTcz2B/view
+- Demo 3 – https://drive.google.com/file/d/1bVPJCZ43PGx4UfbjaHf9MKRyDDtJJyLx/view
+- Demo 4 – https://drive.google.com/file/d/1hEAZULh7gioni81Q85_N2imWBXlMxCwZ/view
 
 ---
 
 ## 🛠 Tech Stack
+
 - Python
 - PyTorch
 - Ultralytics YOLO
 - OpenCV
+- NumPy
 
 ---
 
 ## 🔬 Use Cases
+
 - Construction site safety monitoring
 - Industrial compliance auditing
-- Hospital & laboratory safety
-- Smart CCTV systems
+- Hospital and laboratory safety enforcement
+- Smart CCTV and surveillance systems
 
 ---
 
 ## 🌟 Project Status
-This project is part of my **Computer Vision & Healthcare AI portfolio**, focusing on **deployable, real-world AI systems**.
+
+This project is part of my **Computer Vision and AI portfolio**, focusing on building **deployable, real-world visual intelligence systems**.
 
 > *“AI should not only see — it should protect.”*
