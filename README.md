@@ -121,6 +121,27 @@ The model detects multiple PPE categories simultaneously using **multi-class obj
 - Smart CCTV and surveillance systems
 
 ---
+---
+
+## 📜 Intellectual Property & Registration
+
+This project has been officially **registered as a protected software work** with the **Saudi Authority for Intellectual Property (SAIP)**.
+
+The registration covers the system’s:
+- Concept and functional design
+- Computer vision pipeline
+- Model integration and inference workflow
+- Application-level implementation
+
+This registration establishes **formal ownership and authorship** of the project while allowing it to be showcased for **research, portfolio, and professional purposes**.
+
+<p align="center">
+  <img src="assets/SAIP.png" width="600"/>
+</p>
+
+> Registration with SAIP reflects the project’s maturity and readiness as a real-world AI system rather than a purely experimental prototype.
+
+
 
 ## 🌟 Project Status
 
